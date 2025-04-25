@@ -1,0 +1,2 @@
+cellspacing="0" - Retira os espacamentos das bordas.
+span -  e usado para aplicar estilos.

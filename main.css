@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+    padding-top:  100px;/*Da espacamento ao elementos no topo*/
+}
+
+header{
+    display: flex; /*Um elemento do lado do outro*/
+    align-items: center; /*Alinha os itens na vertical*/
+    justify-content: center; /*Alinha os itens ao centro*/
+    margin-bottom: 40px;/*Adiciona espacamento na parte de baixo do elemento*/
+}
+
+header img{
+    height: 36px; /*Configura o tamanho do elemeto*/
+    margin-right: 16px; /*Aplica uma margem a direita do elemeto*/
+}
+
+header h1{
+    font-style: 40px;/*Configura o tamanho da fonte*/
+    font-weight: bold;/*Define qual o peso da fonte*/
+}
+
+.container{
+    max-width: 960px;/*E o tamanho maximo que os elemtos podem chegar*/
+    width: 100%;/*Os elementos vao sempre ocupar 100% do seu tamanho ate chegarem no tamanho maximo acima, isso serve para varias telas*/
+    margin: 0 auto;/*centraliza o conteudo na horizontal 0 para esquerda e direita e o auto para cima e para baixo*/
+}
+
+form{
+    display: flex; /*deixa os elementos lado a lado*/
+    flex-direction: column; /*deixa os itens em colunas*/
+    gap: 10px; /*adiona espacamento entre os elementos*/
+    margin-bottom: 56px;/*Adiciona uma margin na parte de baixo do elemento*/
+    width: 100%; /*tamanho de 100%*/
+}
+
+form input{
+    font-size: 24px;/*define o tamanho da fonte*/
+    background-color: #fff;/*define a cor de fundo do elemento*/
+    border: none;/*remove as bordas*/
+    border-bottom: 2px solid #000; /*Adiciona uma borda inferior com o tamanho, peso e cor*/
+    padding: 8px; /*Adiciona uma bordar de todos os lados do elemeto*/
+}
+
+form button{
+    background-color: #009432;/*define a cor de fundo do elemento*/
+    color: #fff;/*define a cor do elemento*/
+    font-size: 24px;/*define o tamanaho da fonte*/
+    font-weight: bold;/*define o peso da fonte*/
+    border: none;/*remove a borda do botao*/
+    cursor: pointer;/*Quando passarmos o mouse por cima do botao ele ficara com o icone de cliclar*/
+    padding: 8px; /*Adiciona uma bordar de todos os lados do elemeto*/
+}
+
+table{
+    width: 100%; /*Ocupa 100% do seu tamanho */
+}
+
+table th{
+    border-bottom: 2px solid #000; /*Adiciona uma borda ao elemento com tamanho peso e cor*/
+    padding: 16px; /*Adiciona uma borda a todos os lados dos elementos*/
+    font-size: 24px; /*Tamanho da fonte*/
+    font-weight: bold; /*peso da fonte*/
+}
+
+table td{
+    padding: 16px 0; /*Aplica um tamanho em cima e em baixo de 8px e 0 nas laterais*/
+    text-align: center; /*Alinha os textos ao centro*/
+    font-size: 18px; /*Tamanho das fonts*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /*Aplica uma margin na parte de baixo de 1px, solido e com a cor rgba red, green, black e alpha*/
+}
+
+table td img{
+    height: 30px; /*Define o tamanho*/
+}
+
+.resultado{
+    padding: 8px; /*Aplica um espacamento em todas as direcoes de 8px*/
+    font-weight: bold; /*Aplica um peso nas fontes*/
+    color: #fff; /*Aplica um cor ao elemento*/
+    background-color: #000; /*Aplica um cor ao fundo do elemento*/
+    border-radius: 3px; /*Aplica uma borda aredondada ao elemento*/
+}
+
+.aprovado{
+    background-color: #009432;
+}
+
+.reprovado{
+    background-color: red;
+}
