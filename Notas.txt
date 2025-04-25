@@ -1,2 +1,3 @@
 cellspacing="0" - Retira os espacamentos das bordas.
 span -  e usado para aplicar estilos.
+toFixed(2) - limita as casas decimais, aqui estamos limitando elas em 2.
