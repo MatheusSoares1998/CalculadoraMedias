@@ -8,3 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - added changelog.md
 - added project to github
+
+### Fixed
+
+- limitacoes de casas decimais
